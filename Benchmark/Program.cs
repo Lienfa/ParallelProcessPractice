@@ -19,13 +19,13 @@ namespace Benchmark
             }
         }
 
-
         static IEnumerable<TaskRunnerBase> Runners
         {
             get
             {
                 yield return new AndrewDemo.AndrewTaskRunner();
                 yield return new LexDemo.LexTaskRunner();
+                yield return new LienFaDemo.LienFaTaskRunner();
             }
         }
     }
